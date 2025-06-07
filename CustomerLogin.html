@@ -1,0 +1,88 @@
+<html>	
+<head>
+           <title>Online Tailoring</title	
+	   <link rel="stylesheet"href="style.css">
+           <style>
+                          body{
+                                   background:url("bg.avif");
+                                   background-size:cover;
+				   backdrop-filter:blur(0px);
+                                  }
+                           #header{
+                                    display:flex;
+                                    height:100px;
+                                    width:100%;
+                                    align-items:center;
+                                    justify-content:space-between;
+                                    }
+			   #body{;
+				    height:500px;
+                                    width:100%;
+				    }	
+			   #footer{
+				    height:100px;
+                                    width:100%;
+				    }
+                   #header ul li{
+                                   display:inline-block;
+                                   margin:0px 30px;
+                                   }
+                  #header ul li a{
+                                      text-decoration:none;
+                                      color:black;
+                                      font-size:20px;
+                                      }
+		  #body h2{
+				padding-top:100px;
+				}
+		  #box{
+				height:300px;
+				width:300px;
+				background:rgba(0,0,0,0.3);
+				}
+                    </style>
+</head>
+</body>
+
+<div id ="header">
+                 <image scr="logo2.jpg"height="100px"width="100px"></image
+                           
+                  <h1>ONLINE TAILORING</h1>
+                  <ul> 
+                               <li><a href="index.html">Home</a></li>
+                               <li><a href="CustomerLogin.html">Customer</a></li>
+                               <li><a href="TailorLogin.html">Tailor</a></li>
+		   </ul>
+</div>
+<div id="body">
+		<center>
+	        <h2 style="">Customer Login</h2>
+		<div id="box">
+
+		<center>
+                    <form action="CustomerRegAction.jsp">
+		<table style="padding-top:100px;">
+			<tr>
+		             <th>username</th>
+			     <td><input type=text  name="username" placeholder="Enter your username" required></td>
+			</tr>
+			<tr>
+			      <th>password</th>
+			      <td><input type="password"name="password"></td>
+			</tr>  <tr>
+			    <th></th>
+    			    <td><input type="submit"name="Login"></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>Click Here To<a href="CustomerRegistration.html">Register</a></td>
+
+			</tr>
+                        </table>
+                    </form>
+		   </center>
+                    
+                </center>
+		</table>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<html>	
+<head>
+           <title>Online Tailoring</title	
+	   <link rel="stylesheet"href="style.css">
+           <style>
+                          body{
+                                   background:url("bg1.avif");
+                                   background-size:cover;
+				   backdrop-filter:blur(0px);	 
+                                  }
+                           #header{
+                                    display:flex;
+                                    height:100px;
+                                    width:100%;
+                                    align-items:center;
+                                    justify-content:space-between;
+                                    }
+			   #body{
+				    height:500px;
+                                    width:100%;
+				    }	
+			   #footer{
+				    height:100px;
+                                    width:100%;
+				    }
+                   #header ul li{
+                                   display:inline-block;
+                                   margin:0px 30px;
+                                   }
+                  #header ul li a{
+                                      text-decoration:none;
+                                      color:black;
+                                      font-size:20px;
+                                      }
+		  #body h2{
+				padding-top:100px;
+				}
+		  #box{
+				height:300px;
+				width:300px;
+				background:rgba(0,0,0,0.3);
+				}
+			input[type="text"],[type="password"],[type="number"]{
+										width:200px;
+										border-radius:30px;
+										background:rgba(0,0,0,0.5);
+										height:28px;
+										color:white;
+										padding-left:15px;
+										}
+						input[type="submit"]{
+										width:100px;
+										border-radius:30px;
+										height:28px;
+										}
+							::placeholder{
+										color:white;
+										padding-left:15px;
+										}
+                    </style>
+</head>
+</body>
+
+<div id ="header">
+                 <image src="logo2.jpg"height="100px"width="100px">
+                           
+                  <h1>ONLINE TAILORING</h1>
+                  <ul> 
+                               <li><a href="index.html">Home</a></li>
+                               <li><a href="CustomerLogin.html">Customer</a></li>
+                               <li><a href="TailorLogin.html">Tailor</a></li>		
+		   </ul>
+</div>
+<div id="body">
+		<center>
+	        <h2 style="">Tailor Login</h2>
+		<div id="box">
+
+		<center>
+                    <form action="TailorRegAction.jsp">
+                            <table style="padding-top:100px;">
+			<tr>
+			     <th>Name</th>
+			     <td><input type="text" name="name" placeholder="Enter your name">
+			     </td>
+			</tr>
+			     <tr>
+		             <th>Mobile no</th>
+			     <td><input type="number" name="mobileno" placeholder="Enter your mobile no"></td>
+			</tr>
+			<tr>
+			      <th>Email ID</th>
+			      <td><input type="text" name="email" placeholder="Enter your email Id">
+			      </td>
+			</tr>
+				<tr>
+				<th>Username</th>
+				<td><input type="text" name="username" placeholder="Enter your username">
+				</td>
+					</tr>
+					<tr>
+			        <th>Password</th>
+			        <td><input type="password" name="password" placeholder="Enter your password">
+				</td>
+			</tr>  
+				<tr>
+			    <th></th>
+    			    <td><input type="submit" value="Register"></td>
+			</tr>
+			<tr>
+			<th></th>
+			<td>Click Here To <a href="TailorLogin.html">Login</a></td>
+			</tr>
+                        </table>
+                    </form>
+			</div>
+		   </center>
+                </div>
+                    
+</body>
+</html>
