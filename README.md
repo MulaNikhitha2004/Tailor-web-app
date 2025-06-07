@@ -1,37 +1,45 @@
-# Tailor Web App
+# Tailor Web App 👗🧵
 
-A simple web-based tailoring service application that allows tailors to register and log in, and customers to log in and access services.
+A simple web-based application for tailors and customers to manage tailoring services, registrations, and logins.
 
-## 🌐 Features
+## 📌 Features
 
-- Tailor registration and login
-- Customer login
-- Tailor dashboard (home page)
-- HTML and JSP-based frontend and backend
+- Customer Login Page
+- Tailor Login Page
+- Tailor Registration Page
+- Home Page
+- Screenshots of the UI
 
-## 🗂️ Project Structure
-tailor-web-app/
-├── index.html                  # Landing page
-├── tailorregister.html         # Tailor registration form
-├── tailorregaction.jsp         # Processes tailor registration
-├── tailor login.html           # Tailor login form
-├── tailorlogaction.jsp         # Processes tailor login
-├── tailor home.jsp             # Tailor dashboard after login
-└── customerlogin.html          # Customer login form
-## 🛠️ Technologies Used
+## 📸 Screenshots
 
-- HTML5
-- JSP (Java Server Pages)
-- Java (backend logic)
-- Apache Tomcat (recommended server)
-- JDBC (for database connection, if applicable)
+Here are some screenshots of the application:
 
-## 🚀 Getting Started
+- Home Page  
+- Tailor Login Page  
+- Tailor Registration Page  
+- Customer Login Page  
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/tailor-web-app.git
-2.	Open the project in your favorite IDE (like Eclipse or IntelliJ).
-3.	Deploy it on a local server (like Apache Tomcat).
-4.	Make sure your database (if used) is configured and running.
-5.	Access the site via http://localhost:8080/your-app-name/index.html.
+All screenshots are available in the `/Screenshots` folder of this repository.
+
+## 🛠️ Tech Stack
+
+- HTML
+- JSP (JavaServer Pages)
+
+## 📁 Project Structure
+Tailor-web-app/
+│
+├── CustomerLogin.html
+├── LoginHome.jsp
+├── TailorLogAction.jsp
+├── TailorRegistration.jsp
+├── README.md
+└── Screenshots/
+├── Home page.jpeg
+├── Tailor Login Page.jpeg
+├── Tailor Registration page.jpeg
+└── Customer login page.jpeg
+
+## ✍️ Author
+**Mula Nikhitha**
+
